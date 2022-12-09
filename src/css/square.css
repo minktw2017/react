@@ -1,8 +1,19 @@
-.test {
-  color: red;
+.wrap {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 4px;
+  justify-content: center;
+  align-content: center;
+  background-color: #e7e8d1;
 }
 
 .square {
   width: 100px;
   height: 100px;
+  border: 1px solid #222222;
 }
