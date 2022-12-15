@@ -1,4 +1,4 @@
-import Squares from "./components/Squares"
+import JokePool from "./components/JokePool"
 
 
 export default function App() {
@@ -6,7 +6,7 @@ export default function App() {
   return (
     <>
       <h1 className="head">Welcome to my react daily practicing.</h1>
-      <Squares />
+      <JokePool />
     </>
   )
 }
